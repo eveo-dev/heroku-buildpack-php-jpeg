@@ -9,7 +9,7 @@ set -x
 
 APACHE_VERSION="2.2.22"
 PHP_VERSION="5.4.1"
-APACHE_BINARY_URL="http://projects.interlated.com.au/apache-${APACHE_VERSION}_php-${PHP_VERSION}.tar.bz2"
+APACHE_BINARY_URL="http://eveo-heroku-buildpack-php-columbo.s3-website-us-east-1.amazonaws.com/apache-2.2.22_php-5.4.1.tar.bz2"
 APACHE_DIR=apache
 PHP_DIR=php
 MCRYPT_DIR=mcrypt
