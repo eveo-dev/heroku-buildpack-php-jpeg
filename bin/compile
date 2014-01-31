@@ -65,6 +65,9 @@ fi
 cp $LP_DIR/conf/httpd.conf $APACHE_DIR/conf
 cp $LP_DIR/conf/php.ini "$PHP_DIR"
 
+# copy modules
+cp $LP_DIR/modules/*.so "$APACHE_DIR/modules"
+
 # make php available on bin
 [ -d bin ] || mkdir -p bin
 ln -s /app/php/bin/php bin/php
